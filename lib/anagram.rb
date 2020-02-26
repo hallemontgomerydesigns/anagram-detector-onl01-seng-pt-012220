@@ -13,7 +13,7 @@ class Anagram
   
   def match(array)
     
-    array.group_by{|w| w.downcase.each_char.sort}.values.each{|v| v.uniq!}
+    array.
   end
 end
 
