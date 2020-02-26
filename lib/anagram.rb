@@ -2,7 +2,7 @@
 
 class Anagram
  
- attr_reader :anagram 
+ attr_accessor :anagram 
  
   
   def initialize(word)
