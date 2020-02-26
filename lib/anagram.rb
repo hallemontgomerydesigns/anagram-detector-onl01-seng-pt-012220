@@ -13,7 +13,7 @@ class Anagram
   
   def match(array)
     
-    array.select
+    array.select (|x|)
   end
 end
 
