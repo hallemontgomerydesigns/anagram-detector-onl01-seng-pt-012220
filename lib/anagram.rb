@@ -13,7 +13,7 @@ class Anagram
   
   def match(array)
     
-    array.select {|x|x
+    array.select {|x|x.split("")
   end
 end
 
