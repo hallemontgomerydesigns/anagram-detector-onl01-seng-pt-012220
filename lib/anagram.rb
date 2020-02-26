@@ -12,9 +12,9 @@ class Anagram
   end
  
   
-  def match(ANAGRAM)
+  def match(array)
     
-    ANAGRAM.group_by{|w| w.downcase.each_char.sort}.values.each{|v| v.uniq!}
+    array.group_by{|w| w.downcase.each_char.sort}.values.each{|v| v.uniq!}
   end
 end
 
