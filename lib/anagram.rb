@@ -4,7 +4,6 @@ class Anagram
  
  attr_reader :anagram 
  
- ANAGRAM = %w[cars potatoes racs four scar creams scream] 
   
   def initialize(word)
     
